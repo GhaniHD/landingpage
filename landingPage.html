@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTech - Mengubah Hidup Berkelanjutan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#10B981',
+                        secondary: '#0EA5E9',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-sans text-gray-800">
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-primary">EcoTech</a>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#home" class="hover:text-primary transition duration-300">Beranda</a>
+                <a href="#features" class="hover:text-primary transition duration-300">Fitur</a>
+                <a href="#testimonials" class="hover:text-primary transition duration-300">Testimoni</a>
+                <a href="#contact" class="hover:text-primary transition duration-300">Kontak</a>
+            </nav>
+            <button class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    img="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-20 md:pt-32 md:pb-32 bg-gradient-to-br from-primary to-secondary text-white">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">Mengubah Hidup Berkelanjutan Anda</h1>
+                <p class="text-xl mb-8">Rasakan masa depan teknologi ramah lingkungan dengan solusi inovatif dari
+                    EcoTech.</p>
+                <a href="#contact"
+                    class="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300 inline-block">Mulai
+                    Sekarang</a>
+            </div>
+            <div class="md:w-1/2">
+                <img src="./images/img1.png" alt="Inovasi EcoTech" class="rounded-lg shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Fitur Inovatif Kami</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div
+                    class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="bg-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-center">Efisiensi Energi</h3>
+                    <p class="text-gray-600 text-center">Algoritma pintar kami mengoptimalkan konsumsi energi Anda,
+                        mengurangi biaya dan jejak karbon.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="bg-secondary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-center">Pengurangan Limbah</h3>
+                    <p class="text-gray-600 text-center">Solusi daur ulang dan teknik pengelolaan limbah inovatif untuk
+                        meminimalkan dampak lingkungan.</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="bg-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-center">Bahan Ramah Lingkungan</h3>
+                    <p class="text-gray-600 text-center">Kami menggunakan bahan yang berkelanjutan dan mudah terurai di
+                        semua produk kami untuk melindungi lingkungan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Apa Kata Klien Kami</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <p class="mb-6 text-gray-600 italic">"Solusi dari EcoTech telah mengubah bisnis kami. Kami melihat
+                        pengurangan biaya energi sebesar 40%, dan pelanggan kami menyukai pendekatan ramah lingkungan
+                        kami."</p>
+                    <div class="flex items-center">
+                        <img src="/api/placeholder/50/50" alt="John Doe" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <p class="font-semibold">John Doe</p>
+                            <p class="text-gray-500">CEO, Green Enterprises</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <p class="mb-6 text-gray-600 italic">"Menerapkan sistem pengurangan limbah dari EcoTech tidak hanya
+                        menghemat uang kami tetapi juga secara signifikan meningkatkan dampak lingkungan kami. Ini
+                        adalah
+                        win-win solution!"</p>
+                    <div class="flex items-center">
+                        <img src="/api/placeholder/50/50" alt="Jane Smith" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <p class="font-semibold">Jane Smith</p>
+                            <p class="text-gray-500">Manajer Operasional, EcoManufacture</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Hubungi Kami</h2>
+            <div class="max-w-3xl mx-auto">
+                <form>
+                    <div class="mb-6">
+                        <label for="name" class="block text-lg font-semibold mb-2">Nama</label>
+                        <input type="text" id="name" placeholder="Masukkan nama Anda"
+                            class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                    </div>
+                    <div class="mb-6">
+                        <label for="email" class="block text-lg font-semibold mb-2">Email</label>
+                        <input type="email" id="email" placeholder="Masukkan email Anda"
+                            class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-lg font-semibold mb-2">Pesan</label>
+                        <textarea id="message" rows="6" placeholder="Tulis pesan Anda"
+                            class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit"
+                            class="bg-primary text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition duration-300">Kirim
+                            Pesan</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 EcoTech Solutions. Semua Hak Cipta Dilindungi.</p>
+            <div class="mt-4">
+                <a href="#" class="text-white mx-2 hover:text-gray-300"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white mx-2 hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2 hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
